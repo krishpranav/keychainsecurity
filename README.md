@@ -14,5 +14,5 @@ require 'keychainsecurity'
 
 Security::Keychain::default_keychain.filename
 
-Security::Keychain.find(server: "itunesconnect.apple.com").password # your password
+Security::InternetPassword.find(server: "itunesconnect.apple.com").password # your password
 ```

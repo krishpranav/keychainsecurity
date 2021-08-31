@@ -12,7 +12,7 @@ $ git clone https://github.com/krishpranav/keychainsecurity
 ```ruby
 require 'keychainsecurity'
 
-KeychainSecurity::Keychain::default_keychain.filename
+Security::Keychain::default_keychain.filename
 
-KeychainSecurity::Keychain.find(server: "itunesconnect.apple.com").password # your password
+Security::Keychain.find(server: "itunesconnect.apple.com").password # your password
 ```
